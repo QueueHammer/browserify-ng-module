@@ -1,0 +1,24 @@
+{
+  "name": "browserify-ng-module",
+  "version": "1.0.0",
+  "description": "A helper for working with Angular modules and Browserify",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "browserify ./test/harness.js -o ./test/index.js && http-server ./test"
+  },
+  "keywords": [
+    "npm",
+    "angular",
+    "ng",
+    "browserify",
+    "module"
+  ],
+  "author": "Christopher Smith (Queuehammer)",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  }
+}

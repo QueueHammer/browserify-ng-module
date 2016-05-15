@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "browserify ./test/harness.js -o ./test/index.js && http-server ./test"
+    "test": "browserify ./test/harness.js -o ./test/index.js --debug && http-server ./test"
   },
   "keywords": [
     "npm",
